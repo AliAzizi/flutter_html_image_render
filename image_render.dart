@@ -192,7 +192,7 @@ String? _alt(Map<String, String> attributes) {
 
 double? _height(Map<String, String> attributes) {
   final heightString = attributes["height"];
-  return heightString == null ? heightString as double? : null;
+  return null;
 }
 
 double? _width(Map<String, String> attributes) {
